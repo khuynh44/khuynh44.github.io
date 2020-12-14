@@ -1,0 +1,155 @@
+.u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 618px;
+}
+
+.u-section-1 .u-video-1 {
+  height: 360px;
+  width: 640px;
+  margin: 79px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: "Rubik Mono One";
+  width: 680px;
+  margin: 39px auto 60px;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 549px;
+  }
+
+  .u-section-1 .u-video-1 {
+    height: 300px;
+    margin-top: 60px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 540px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 473px;
+  }
+
+  .u-section-1 .u-video-1 {
+    height: 190px;
+    margin-top: 79px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 340px;
+  }
+}.u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 681px;
+}
+
+.u-section-2 .u-video-1 {
+  height: 360px;
+  width: 640px;
+  margin: 48px auto 0 59px;
+}
+
+.u-section-2 .u-icon-1 {
+  height: 75px;
+  width: 75px;
+  margin: -227px 181px 0 auto;
+}
+
+.u-section-2 .u-text-1 {
+  font-size: 1.5rem;
+  margin: 28px -121px 0 581px;
+}
+
+.u-section-2 .u-text-2 {
+  font-family: "Rubik Mono One";
+  width: 680px;
+  margin: 139px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-text-1 {
+    font-weight: normal;
+    font-family: Merriweather, serif;
+    margin-left: 481px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-text-1 {
+    margin-left: 371px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-video-1 {
+    height: 300px;
+    margin-top: 60px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-icon-1 {
+    margin-top: -292px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 32px;
+    margin-left: 281px;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: 540px;
+    margin-top: 187px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-video-1 {
+    height: 190px;
+    margin-top: 469px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-2 .u-icon-1 {
+    margin-top: -317px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 81px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: 340px;
+    margin-top: 166px;
+    margin-bottom: 0;
+  }
+}.u-section-3 .u-sheet-1 {
+  min-height: 99px;
+}
