@@ -15,7 +15,28 @@
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,990i|Rubik+Mono+One:400|Audiowide:400">
     
-    
+    <style>
+      #canvas {
+          background-color: black; 
+          height: 100vmin;
+          width: 100vmin;
+          margin-left: 15em;
+          display: grid;
+          grid-template-rows: repeat(21, 1fr);
+          grid-template-columns: repeat(21, 1fr);
+      }
+
+      .snake {
+          background-color: red;
+           border: .25vmin solid white;
+      }
+
+      .food {
+          background-color: blue;
+          border: .25vmin black;
+      }
+  </style>
+  <script defer src="controller.js"></script>
     
     
     <script type="application/ld+json">{
@@ -93,6 +114,22 @@
         <h2 class="u-custom-font u-text u-text-2">Heart Failure Data Analysis</h2>
       </div>
     </section>
+
+
+
+    <section class="u-align-center u-clearfix u-grey-80 u-section-1" id="sec-d895">
+      <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
+        <div> press any key to start and press space to pause game
+          <div id = "canvas">
+              <div class="snake" style = "grid-row-start: 11; grid-column-start: 12;"></div>
+              <div class="food" style = "grid-row-start: 17; grid-column-start: 5;"></div>
+          </div>
+          </div>
+        <h2 class="u-custom-font u-text u-text-1">Snake Game</h2>
+      </div>
+    </section>
+
+
     <section class="u-clearfix u-section-3" id="sec-ce80">
       <div class="u-clearfix u-sheet u-sheet-1"></div>
     </section>
